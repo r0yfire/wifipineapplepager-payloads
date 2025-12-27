@@ -1,7 +1,7 @@
 #!/bin/bash
 # Title: Do A Barrel Roll
 # Description: Executes the easter egg barrel roll command to cycle LEDs with optional sound
-# Author: WiFi Pineapple Community
+# Author: Community
 # Version: 1.1
 # Category: Prank
 #
@@ -97,11 +97,18 @@ fi
 # Execute the easter egg command
 DO_A_BARREL_ROLL
 
+# Wait for user input to stop the LED cycling
+LOG ""
+LOG blue "  \\o/  \\o   o/  _o_  \\o  \\o/"
+LOG blue "   |    |\\  /|   |   /|   | "
+LOG blue "  / \\  /|  / \\  /|   |\\  / \\"
+LOG ""
+LOG "Press any button to stop"
+WAIT_FOR_INPUT
+
 LOG ""
 LOG green "✓ Barrel roll complete!"
-LOG ""
 VIBRATE
-ALERT "Barrel roll executed successfully!"
 
 exit 0
 

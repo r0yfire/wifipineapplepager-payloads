@@ -15,6 +15,19 @@ This unofficial repository contains payloads, themes and ringtones for the Hak5 
 **Info**
 
 - [Ifconfig](./library/user/info/ifconfig/payload.sh) - Simple UI to show your network interfaces
+- [Public IP](./library/user/info/public_ip/payload.sh) - Display your public IP address and location
+
+**Prank**
+
+- [Barrel Roll](./library/user/prank/barrel_roll/payload.sh) - Execute the easter egg command to cycle the Pager's LEDs in a barrel roll pattern
+- [Text Adventure](./library/user/prank/text_adventure/payload.sh) - AI-powered cyberpunk text adventure inspired by Snow Crash
+
+**Reconnaissance**
+
+- [Bluetooth Scanner](./library/user/reconnaissance/bluetooth_scanner/payload.sh) - Scan for nearby Bluetooth devices (Classic and BLE) with manufacturer identification
+- [Nmap Host Discovery](./library/user/reconnaissance/nmap_host_discovery/payload.sh) - Discover hosts on a network using nmap
+- [Nmap Subnet](./library/user/reconnaissance/nmap_subnet/payload.sh) - Scan a subnet for open ports and services
+- [Query Shodan Internet DB](./library/user/reconnaissance/query_shodan_internet_db/payload.sh) - Query the Shodan database for Internet-connected devices
 
 ---
 
