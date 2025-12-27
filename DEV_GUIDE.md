@@ -2,19 +2,44 @@
 
 A reference guide for writing robust, user-friendly payload scripts based on lessons learned from developing the `deauth_flood` and `wifi_dictionary` attack payloads.
 
-> **See Also:** For working examples of each DuckyScript command, refer to the `library/user/examples/` directory:
-> - `ALERT/` - Popup notifications
-> - `CONFIRMATION_DIALOG/` - Yes/No prompts
-> - `ERROR_DIALOG/` - Error popups
-> - `IP_PICKER/` - IP address input
-> - `LOG/` - Logging with colors
-> - `MAC_PICKER/` - MAC address input
-> - `NUMBER_PICKER/` - Numeric input
-> - `PROMPT/` - Display message and wait
-> - `SPINNER/` - Loading indicators
-> - `TEXT_PICKER/` - Text input
-> - `WAIT_FOR_BUTTON_PRESS/` - Wait for specific button
-> - `WAIT_FOR_INPUT/` - Wait for any button
+> **See Also:** 
+> - **[PAGER_COMMANDS.md](PAGER_COMMANDS.md)** - Complete reference of all 103 DuckyScript commands
+> - For working examples of each DuckyScript command, refer to the `library/user/examples/` directory:
+>   - `ALERT/` - Popup notifications
+>   - `CONFIRMATION_DIALOG/` - Yes/No prompts
+>   - `ERROR_DIALOG/` - Error popups
+>   - `IP_PICKER/` - IP address input
+>   - `LOG/` - Logging with colors
+>   - `MAC_PICKER/` - MAC address input
+>   - `NUMBER_PICKER/` - Numeric input
+>   - `PROMPT/` - Display message and wait
+>   - `SPINNER/` - Loading indicators
+>   - `TEXT_PICKER/` - Text input
+>   - `WAIT_FOR_BUTTON_PRESS/` - Wait for specific button
+>   - `WAIT_FOR_INPUT/` - Wait for any button
+
+
+## Pager Specifications
+
+**Connectivity**
+
+- Primary WiFi: Dual PHY 2T2R 802.11a/b/g/n/ac/ax
+- Secondary WiFi: Single PHY 2T2R 802.11b/g/n
+- Bluetooth: Bluetooth 5.2, Bluetooth 4.2 Low Energy
+- Ethernet: Integrated USB-C Ethernet adapter
+- Bands: 2.4 GHz, 5 GHz, 6 GHz
+
+**Processing & Memory**
+
+- CPU: 580 MHz MIPS® 24K™ Router Chip
+- Memory: 
+    - 4 GB EMMC
+    - 128 MB SPI
+    - 256 MB DDR2 RAM
+- Expansion: USB 2.0 Host
+
+**Package Manager**
+- `opkg`
 
 ---
 

@@ -5,7 +5,7 @@
 # Version: 1.0
 # Options
 # Put your desired SSIDS in the following Array
-SSIDS=("SSID1" "SSID2" "ETC")
+SSIDS=("Free Public WiFi" "wifi" "dlink")
 
 LOG "Clearing old pool"
 PINEAPPLE_SSID_POOL_CLEAR
